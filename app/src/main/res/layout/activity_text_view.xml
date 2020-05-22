@@ -3,24 +3,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="20dp">
 
     <TextView
-        android:id="@+id/tw_1"
+        android:id="@+id/tv_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="textview"
         android:textColor="#000000"
         android:textSize="36sp"/>
     <TextView
-        android:id="@+id/tw_2"
+        android:id="@+id/tv_2"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:maxLines="1"
+        android:singleLine="true"
         android:ellipsize="end"
         android:text="textview"
         android:textColor="#000000"
         android:textSize="36sp"
         android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choose"
+        android:drawableRight="@drawable/down32"
+        android:drawablePadding="10dp"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:layout_marginTop="10dp"/>
+
 
 </LinearLayout>
